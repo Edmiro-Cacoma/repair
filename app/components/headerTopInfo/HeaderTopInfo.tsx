@@ -5,7 +5,7 @@ import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-
 const HeaderTopInfo:React.FC = () => {
     return (
         <section className="relative overflow-hidden bg-lightBlue py-8 px-[10%] w-full flex items-center justify-center">
-            <div className="absolute whitespace-nowrap animate-scroll flex gap-10 ">
+            <div className="absolute whitespace-nowrap animate-scroll flex justify-between gap-10 ">
                 <p className="text-2xl text-white">
                     <FontAwesomeIcon icon={faLocationDot} className="text-yellow mr-2" /> Luanda, Angola
                 </p>
