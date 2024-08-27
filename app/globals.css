@@ -15,12 +15,16 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: var(--white);
+  background: #ffffff;
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--lightBlue);
+  background: #2597f4;
   border-radius: 5rem;
+}
+
+section {
+  padding: 2rem 10%;
 }
 
 @keyframes scroll {
@@ -50,3 +54,9 @@ html::-webkit-scrollbar-thumb {
 .spin {
   animation: spin 8s linear infinite;
 }
+
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap: 2rem;
+ }
