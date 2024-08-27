@@ -4,7 +4,7 @@ import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-
 
 const HeaderTopInfo:React.FC = () => {
     return (
-        <div className="relative overflow-hidden bg-lightBlue py-8 px-[10%] w-full flex items-center justify-center">
+        <section className="relative overflow-hidden bg-lightBlue py-8 px-[10%] w-full flex items-center justify-center">
             <div className="absolute whitespace-nowrap animate-scroll flex gap-10 ">
                 <p className="text-2xl text-white">
                     <FontAwesomeIcon icon={faLocationDot} className="text-yellow mr-2" /> Luanda, Angola
@@ -16,7 +16,7 @@ const HeaderTopInfo:React.FC = () => {
                     <FontAwesomeIcon icon={faPhone} className="text-yellow mr-2" /> +244 - 926830912
                 </p>
             </div>
-        </div>
+        </section>
     );
 };
 
