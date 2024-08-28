@@ -1,5 +1,4 @@
 import Header from './components/header/Header'
-
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Hero from './components/hero/Hero';
@@ -10,6 +9,8 @@ import Gallery from './components/gallery/Gallery';
 import Facilities from './components/facilities/Facilities';
 import Team from './components/team/Team';
 import ClientReviews from './components/clientReviews/ClientReviews';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 config.autoAddCss = false;
 
 export default function Home() {
@@ -24,10 +25,11 @@ export default function Home() {
         <Gallery />
         <Facilities />
         <Team />
-        <ClientReviews/>
+        <ClientReviews />
+        <Contact />
       </main>
       <footer>
-
+        <Footer />
       </footer>
     </>
 
