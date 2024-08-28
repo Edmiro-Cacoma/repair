@@ -20,7 +20,10 @@ const Gallery: React.FC = () => {
     const [activeImage, setActiveImage] = useState<number | null>(null);
 
     const openLightBox = (index: number): void => {
-        setActiveImage(index);
+        if (window.innerWidth >= 768) {
+            setActiveImage(index);
+        }
+
     };
 
     const closeLightBox = (): void => {
@@ -68,7 +71,7 @@ const Gallery: React.FC = () => {
                             onClick={closeLightBox}
                         >
                             <FontAwesomeIcon
-                                icon={ faTimes}
+                                icon={faTimes}
                                 className="text-3xl text-white"
                             />
                         </button>

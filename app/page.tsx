@@ -7,6 +7,8 @@ import Facts from './components/facts/Facts';
 import About from './components/about/About';
 import Services from './components/services/Services';
 import Gallery from './components/gallery/Gallery';
+import Facilities from './components/facilities/Facilities';
+
 config.autoAddCss = false;
 
 export default function Home() {
@@ -18,8 +20,14 @@ export default function Home() {
         <Facts />
         <About />
         <Services />
-        <Gallery/>
-      </main></>
+        <Gallery />
+        <Facilities />
+      </main>
+      <footer>
+
+      </footer>
+    </>
+     
 
   );
 }
