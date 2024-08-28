@@ -32,8 +32,8 @@ const Header: React.FC = () => {
                 </Link>
 
                 <nav>
-                    <div className={`flex-1  ${isMenuOpen ? 'block' : 'hidden'} md:flex md:items-center md:justify-between`}>
-                        <ul className='flex flex-col justify-around  w-full absolute top-32 left-0 right-0 md:relative md:top-0 md:flex-row md:justify-between z-10 bg-whiteGray'>
+                    <div className={`flex-1  ${isMenuOpen ? 'block' : 'hidden'} md:flex md:items-center md:justify-between `}>
+                        <ul className='flex flex-col justify-around  w-full absolute top-32 left-0 right-0 md:relative md:top-0 md:flex-row md:justify-between z-10 bg-whiteGray  md:bg-white'>
                             {navItems.map((item, index) => (
                                 <li key={index} className='my-2 md:my-0'>
                                     <Link href={`#${item.title.toLowerCase()}`} className='block text-center py-2  md:py-0 text-2xl md:text-4xl text-gray-600 capitalize md:ml-8'>
