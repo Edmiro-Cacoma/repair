@@ -9,7 +9,7 @@ import Services from './components/services/Services';
 import Gallery from './components/gallery/Gallery';
 import Facilities from './components/facilities/Facilities';
 import Team from './components/team/Team';
-
+import ClientReviews from './components/clientReviews/ClientReviews';
 config.autoAddCss = false;
 
 export default function Home() {
@@ -24,6 +24,7 @@ export default function Home() {
         <Gallery />
         <Facilities />
         <Team />
+        <ClientReviews/>
       </main>
       <footer>
 
