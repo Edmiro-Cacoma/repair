@@ -60,3 +60,14 @@ section {
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap: 2rem;
  }
+
+ .heading {
+   color: #334;
+   font-size: 4rem;
+   margin-bottom: 3rem;
+   text-align: center;
+   text-transform: capitalize;
+ } 
+ .heading span {
+   color: #2597f4;
+ }

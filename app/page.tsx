@@ -8,6 +8,7 @@ import About from './components/about/About';
 import Services from './components/services/Services';
 import Gallery from './components/gallery/Gallery';
 import Facilities from './components/facilities/Facilities';
+import Team from './components/team/Team';
 
 config.autoAddCss = false;
 
@@ -22,12 +23,13 @@ export default function Home() {
         <Services />
         <Gallery />
         <Facilities />
+        <Team />
       </main>
       <footer>
 
       </footer>
     </>
-     
+
 
   );
 }
