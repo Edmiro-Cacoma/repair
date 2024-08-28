@@ -16,7 +16,7 @@ const Facts: React.FC = () => {
 
     return (
         <section className='bg-white'>
-            <div className='grid gap-8 grid-cols-1 sm:grid-cols-[repeat(auto-fit,minmax(30rem,1fr))] bg-whiteGray p-8'>
+            <div className='grid gap-8 grid-cols-1 sm:grid-cols-[repeat(auto-fit,minmax(24rem,1fr))] bg-whiteGray p-8'>
                 {stats.map((stat, index) => (
                     <div key={index} className="flex items-center justify-center flex-col p-4 bg-white shadow-lg rounded-lg">
                         <img src={stat.img} alt={stat.service} className='h-[10rem]' />
